@@ -12,8 +12,6 @@ const RotatingCube = () => {
       meshref.current.rotation.x +=0.01;
       meshref.current.rotation.z +=0.01;
     }
-
-    
   })
   return(
     <mesh ref = {meshref}>
@@ -24,7 +22,6 @@ const RotatingCube = () => {
     </mesh>
   )
 }
-
 const App = () => {
   return(
     <Canvas style = {{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -39,5 +36,4 @@ const App = () => {
     </Canvas>
   )
 }
-
 export default App;
